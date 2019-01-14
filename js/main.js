@@ -9,7 +9,6 @@ setInterval(function(){
 
     var secondes = now.getSeconds();
 
-    
 
     aiguille.style.transform = 'rotate('+secondes * 6 +'deg)'; 
     

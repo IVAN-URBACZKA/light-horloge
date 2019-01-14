@@ -98,35 +98,48 @@ textarea {
    ========================================================================== */
 
 
- body{
-     background: #C85E59;
+   body{
+    background: #C85E59;
 }
 
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   height: 100vh;
 }
 
 #horloge{
-    border: 5px solid white;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    
+   border: 5px solid white;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   
 }
 
 #aiguille{
-    width: 150px;
-    height: 10px;
-    background: white;
-    position: absolute;
-    top:50%;
-    transform: rotate(90deg);
-    transform-origin: top right;
+   width: 150px;
+   height: 10px;
+   background: white;
+   position: absolute;
+   top:50%;
+   -webkit-transform: rotate(90deg);
+       -ms-transform: rotate(90deg);
+           transform: rotate(90deg);
+   -webkit-transform-origin: top right;
+       -ms-transform-origin: top right;
+           transform-origin: top right;
 }
 
+h1{
+   color: white;
+}
 
 
 
