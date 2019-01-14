@@ -128,7 +128,7 @@ main{
    height: 10px;
    background: white;
    position: absolute;
-   top:50%;
+   top:50vh;
    -webkit-transform: rotate(90deg);
        -ms-transform: rotate(90deg);
            transform: rotate(90deg);
